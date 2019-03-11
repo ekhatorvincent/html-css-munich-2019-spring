@@ -4,15 +4,8 @@ div{
     margin-right: auto;
     width: 500px;
   }
-  p{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    background-color: lightgray;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    
-  }
+ 
+  
   #my-id{
     font-family: Brush Script MT, Brush Script Std, cursive; 
     font-size: 22px;
@@ -23,6 +16,9 @@ div{
   .box.blue{
    color:blue; 
     }
+  .box.box.blue p:first-child{
+    color: orangered;
+  }
 .box.large p{
     font-size: xx-large;
     font-family: 'Libre Baskerville', serif ;
@@ -30,7 +26,12 @@ div{
  /*comma (space) means apply style to all element*/
   div .box{
        color: yellow;
+       background-color: blue;
   }
+  div .box p{
+    background-color: green;
+  }
+  
  
   /* when you use (>) directly to the children*/
   article > p{
@@ -42,3 +43,11 @@ div{
       font-size: xx-large;
   }
   
+  p, div {
+     background-color: aqua;
+     margin-left: auto;
+     margin-right: auto;
+     width: 500px; 
+     text-align: center; 
+    background-color: lightgray;
+  }
