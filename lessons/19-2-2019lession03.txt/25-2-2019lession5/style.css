@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(30, 255, 0);
+
+}
+
+div {
+    margin: 100px;
+}
+
+
+#division01{
+background-color: red;
+}
+
+#division02{
+background-color: rgb(200, 255, 0);
+
+
+}
+
+#division03{
+background-color: white;
+}
+img{
+    width: 600px;
+    height: 400;
+    padding-left: 100px; 
+    
+
+}
+
+img{
+
+    width: 600;
+    height: 400 ;
+}
+
+h1{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+p{
+    padding-left: 20px;
+}
